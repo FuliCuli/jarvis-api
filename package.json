@@ -30,8 +30,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vagrant/JarvisApi.git"
+    "url": "git://github.com/FuliCuli/jarvis-api.git"
   },
-  "author": "vagrant",
+  "author": "xherriot",
   "license": ""
 }
