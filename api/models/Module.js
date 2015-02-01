@@ -9,6 +9,40 @@ module.exports = {
 
   attributes: {
 
+    title: {
+      type: 'string',
+      required: true
+    },
+
+    services: {
+      type: 'array',
+      required: true,
+      enum: [
+        'alert',
+        'automation',
+        'geolocation',
+        'mail',
+        'multimedia',
+        'news',
+        'update',
+        'weather'
+      ]
+    },
+
+    protocol: {
+      type: 'string',
+      required: true,
+      enum: [
+        'rest',
+        'zwave'
+      ]
+    } 
+
+    active: {
+      type: 'boolean',
+      defaultsTo: true
+    }
+
   }
 };
 
